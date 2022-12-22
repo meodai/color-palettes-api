@@ -1,0 +1,41 @@
+{
+  "name": "color-palettes-api",
+  "version": "1.0.0",
+  "description": "An api that serves static color palettes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meodai/color-palettes-api.git"
+  },
+  "keywords": [
+    "color",
+    "api",
+    "node",
+    "colors",
+    "palettes",
+    "palette"
+  ],
+  "author": "meodai@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meodai/color-palettes-api/issues"
+  },
+  "homepage": "https://github.com/meodai/color-palettes-api#readme",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "chromotome": "^1.20.0",
+    "color_pals": "^1.0.1",
+    "coloryorktownhall": "^1.0.1",
+    "foundcolorcolors": "^1.0.0",
+    "happyhuescolors": "^1.0.0",
+    "koa": "^2.14.1",
+    "mymindcolors": "^2.0.0",
+    "sanzowadacolors": "^1.0.1",
+    "somorovdcolors": "^1.0.1"
+  }
+}
